@@ -10,7 +10,7 @@ function App() {
     .then(res => res.json())
     .then(
       (quote)=> {
-        setQuote(quote.advice);
+        setQuote(quote.slip.advice);
       }
     )
   },[])
@@ -19,7 +19,7 @@ function App() {
     .then(res => res.json())
     .then(
       (quote)=> {
-        setQuote(quote.advice);
+        setQuote(quote.slip.advice);
       }
     )
   }
